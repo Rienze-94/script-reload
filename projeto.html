@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>NASA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Blogues da NASA</h2>
+<p>Equipe CAPSTONE continua trabalhando para a recuperação de naves espaciais</p>
+<p>e naves espaciais
+  A equipe da missão CAPSTONE continua trabalhando para a recuperação do controle de orientação da espaçonave. Esse trabalho inclui coletar informações da espaçonave, executar simulações e refinar os planos de recuperação. O CAPSTONE é positivo em termos de energia – o que significa que está gerando mais energia de seus painéis solares do que os sistemas da espaçonave estão usando – e permanece em uma condição estável no caminho para a Lua.</p>
+
+<header>
+  <img src="https://blogs.nasa.gov/artemis/wp-content/themes/2016nasablogs/images/nasa-logo.svg" alt="NASA">
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Sobre a Nasa</a></li>
+      <li><a href="https://www.nasa.gov/press-release/nasa-s-spacex-crew-5-launches-to-international-space-station">link text</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1><b>NASA</b></h1>
+    <p><i>Estação aguarda a chegada dos membros da SpaceX Crew-5 hoje</i></p>
+    <p><i>Três astronautas e um cosmonauta estão indo para a Estação Espacial Internacional a bordo da nave da tripulação SpaceX Dragon Endurance hoje. A tripulação de sete membros da Expedição 68 trabalhou meio dia hoje antes de dormir na tarde de quinta-feira para se preparar para o encontro e o acoplamento da missão SpaceX Crew-5.</i></p>
+  </article>
+</section>
+
+<footer>
+  <img src="https://dicas.vestibulares.com.br/wp-content/uploads/2022/09/post_thumbnail-70ac38f246a523029384f6815c0f27c7.jpeg" alt="nasa" 
+  style="width:2000px;height:150px;">
+</footer>
+
+</body>
+</html>
